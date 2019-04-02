@@ -12,6 +12,7 @@
 		81747E5F225307C90091B479 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81747E5D225307C90091B479 /* Main.storyboard */; };
 		81747E61225307CB0091B479 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81747E60225307CB0091B479 /* Assets.xcassets */; };
 		81747E64225307CB0091B479 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81747E62225307CB0091B479 /* LaunchScreen.storyboard */; };
+		81747E6D225309A30091B479 /* Extensions+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81747E6C225309A30091B479 /* Extensions+UIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		81747E60225307CB0091B479 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81747E63225307CB0091B479 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81747E65225307CB0091B479 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81747E6C225309A30091B479 /* Extensions+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extensions+UIView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		81747E58225307C90091B479 /* SwipeMatchFirestore */ = {
 			isa = PBXGroup;
 			children = (
+				81747E6B2253095B0091B479 /* Extensions */,
 				81747E59225307C90091B479 /* AppDelegate.swift */,
 				81747E5B225307C90091B479 /* ViewController.swift */,
 				81747E5D225307C90091B479 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				81747E65225307CB0091B479 /* Info.plist */,
 			);
 			path = SwipeMatchFirestore;
+			sourceTree = "<group>";
+		};
+		81747E6B2253095B0091B479 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				81747E6C225309A30091B479 /* Extensions+UIView.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			files = (
 				81747E5C225307C90091B479 /* ViewController.swift in Sources */,
 				81747E5A225307C90091B479 /* AppDelegate.swift in Sources */,
+				81747E6D225309A30091B479 /* Extensions+UIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

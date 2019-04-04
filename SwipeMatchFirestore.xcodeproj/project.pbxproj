@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8140DAC322559B4F00FB7A0A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8140DAC222559B4F00FB7A0A /* User.swift */; };
+		8140DAC72255A17700FB7A0A /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8140DAC62255A17700FB7A0A /* CardViewModel.swift */; };
 		81747E5A225307C90091B479 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81747E59225307C90091B479 /* AppDelegate.swift */; };
 		81747E5C225307C90091B479 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81747E5B225307C90091B479 /* HomeController.swift */; };
 		81747E5F225307C90091B479 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81747E5D225307C90091B479 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		8140DAC222559B4F00FB7A0A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8140DAC62255A17700FB7A0A /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
 		81747E56225307C90091B479 /* SwipeMatchFirestore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeMatchFirestore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81747E59225307C90091B479 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81747E5B225307C90091B479 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
@@ -45,12 +47,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8140DAC122559B3900FB7A0A /* Model */ = {
+		8140DAC122559B3900FB7A0A /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				8140DAC222559B4F00FB7A0A /* User.swift */,
 			);
-			path = Model;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8140DAC42255A0CD00FB7A0A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				81747E5B225307C90091B479 /* HomeController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8140DAC52255A16700FB7A0A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8140DAC62255A17700FB7A0A /* CardViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		81747E4D225307C90091B479 = {
@@ -72,11 +90,12 @@
 		81747E58225307C90091B479 /* SwipeMatchFirestore */ = {
 			isa = PBXGroup;
 			children = (
-				8140DAC122559B3900FB7A0A /* Model */,
-				81747E6E22530FBD0091B479 /* Views */,
 				81747E6B2253095B0091B479 /* Extensions */,
+				8140DAC122559B3900FB7A0A /* Models */,
+				81747E6E22530FBD0091B479 /* Views */,
+				8140DAC52255A16700FB7A0A /* ViewModels */,
+				8140DAC42255A0CD00FB7A0A /* Controllers */,
 				81747E59225307C90091B479 /* AppDelegate.swift */,
-				81747E5B225307C90091B479 /* HomeController.swift */,
 				81747E5D225307C90091B479 /* Main.storyboard */,
 				81747E60225307CB0091B479 /* Assets.xcassets */,
 				81747E62225307CB0091B479 /* LaunchScreen.storyboard */,
@@ -178,6 +197,7 @@
 				81747E7022530FFC0091B479 /* HomeBottomControlsStackView.swift in Sources */,
 				81747E5A225307C90091B479 /* AppDelegate.swift in Sources */,
 				81747E6D225309A30091B479 /* Extensions+UIView.swift in Sources */,
+				8140DAC72255A17700FB7A0A /* CardViewModel.swift in Sources */,
 				81E5AF6122545B2200EE6708 /* CardView.swift in Sources */,
 				81747E72225315960091B479 /* TopNavigationStackView.swift in Sources */,
 				8140DAC322559B4F00FB7A0A /* User.swift in Sources */,

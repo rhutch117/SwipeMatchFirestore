@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8140DAC322559B4F00FB7A0A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8140DAC222559B4F00FB7A0A /* User.swift */; };
 		81747E5A225307C90091B479 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81747E59225307C90091B479 /* AppDelegate.swift */; };
 		81747E5C225307C90091B479 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81747E5B225307C90091B479 /* HomeController.swift */; };
 		81747E5F225307C90091B479 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81747E5D225307C90091B479 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8140DAC222559B4F00FB7A0A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		81747E56225307C90091B479 /* SwipeMatchFirestore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeMatchFirestore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81747E59225307C90091B479 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81747E5B225307C90091B479 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
@@ -43,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8140DAC122559B3900FB7A0A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8140DAC222559B4F00FB7A0A /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		81747E4D225307C90091B479 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +72,7 @@
 		81747E58225307C90091B479 /* SwipeMatchFirestore */ = {
 			isa = PBXGroup;
 			children = (
+				8140DAC122559B3900FB7A0A /* Model */,
 				81747E6E22530FBD0091B479 /* Views */,
 				81747E6B2253095B0091B479 /* Extensions */,
 				81747E59225307C90091B479 /* AppDelegate.swift */,
@@ -169,6 +180,7 @@
 				81747E6D225309A30091B479 /* Extensions+UIView.swift in Sources */,
 				81E5AF6122545B2200EE6708 /* CardView.swift in Sources */,
 				81747E72225315960091B479 /* TopNavigationStackView.swift in Sources */,
+				8140DAC322559B4F00FB7A0A /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8140DAC322559B4F00FB7A0A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8140DAC222559B4F00FB7A0A /* User.swift */; };
 		8140DAC72255A17700FB7A0A /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8140DAC62255A17700FB7A0A /* CardViewModel.swift */; };
+		8159D1212256F95700663159 /* Advertiser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8159D1202256F95700663159 /* Advertiser.swift */; };
 		81747E5A225307C90091B479 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81747E59225307C90091B479 /* AppDelegate.swift */; };
 		81747E5C225307C90091B479 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81747E5B225307C90091B479 /* HomeController.swift */; };
 		81747E5F225307C90091B479 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81747E5D225307C90091B479 /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		8140DAC222559B4F00FB7A0A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		8140DAC62255A17700FB7A0A /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
+		8159D1202256F95700663159 /* Advertiser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advertiser.swift; sourceTree = "<group>"; };
 		81747E56225307C90091B479 /* SwipeMatchFirestore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeMatchFirestore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81747E59225307C90091B479 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81747E5B225307C90091B479 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				8140DAC222559B4F00FB7A0A /* User.swift */,
+				8159D1202256F95700663159 /* Advertiser.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			files = (
 				81747E5C225307C90091B479 /* HomeController.swift in Sources */,
 				81747E7022530FFC0091B479 /* HomeBottomControlsStackView.swift in Sources */,
+				8159D1212256F95700663159 /* Advertiser.swift in Sources */,
 				81747E5A225307C90091B479 /* AppDelegate.swift in Sources */,
 				81747E6D225309A30091B479 /* Extensions+UIView.swift in Sources */,
 				8140DAC72255A17700FB7A0A /* CardViewModel.swift in Sources */,
